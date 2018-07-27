@@ -1,0 +1,41 @@
+.topButtonRight {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #2A6523;
+    float: right;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: -500px; 
+    /* margin: 20px 0 20px 20px; */
+    border-radius: 15px;
+
+}
+.contact   {
+    text-align: center;
+    margin-top: 10px;
+}
+.topButtonLeft  {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #2A6523;
+    height: 40px;
+    width: 220px;
+    float: right;
+    margin: 20px 300px 20px 20px;
+    border-radius: 15px;
+}
+.bookaskydive   {
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.backgroundmovie    {
+    background-color: blueviolet;
+    height: 500px;
+}
+
+.quicklinks {
+    background-color: aquamarine;
+    height: 500px;
+}
