@@ -1,41 +1,168 @@
+#navbar {
+    background-color: #2A6523;; /* Green background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -100px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    /* border-radius: 0 15px 15px 0; */
+    /* padding-left: -20px; */  
+    z-index: 1;
+}
+/* Style the navbar links */
+#navbar a {
+    float: right;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none; 
+    /* padding-right: 50px; */
+}
+
+#navbar a:hover {
+    background-color: white;
+    color: #2A6523;;
+}
+
+
+.sgcLogo    {
+    background-image: url("skydiverlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px; 
+    width: 200px; 
+    /* background-color: black;  */
+    float: left; 
+    margin: 20px; 
+    /* opacity: .5;  */
+    border-radius: 15px;
+}
 .topButtonRight {
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-color: #2A6523;
+    /* background-color: #2A6523; */
+    background-color: rgba(42, 101, 35, 0.8);
     float: right;
     height: 40px;
-    width: 100px;
+    width: 120px;
     margin-top: 20px;
-    margin-right: -500px; 
-    /* margin: 20px 0 20px 20px; */
+    margin-right: -360px;
     border-radius: 15px;
 
 }
 .contact   {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 .topButtonLeft  {
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-color: #2A6523;
+    /* background-color: #2A6523; */
+    background-color: rgba(42, 101, 35, 0.8);
     height: 40px;
-    width: 220px;
+    width: 180px;
     float: right;
-    margin: 20px 300px 20px 20px;
+    margin: 20px 200px 20px 20px;
     border-radius: 15px;
 }
 .bookaskydive   {
     text-align: center; 
-    margin-top: 10px;
+    margin-top: 12px;
 }
-
 .backgroundmovie    {
-    background-color: blueviolet;
-    height: 500px;
+    background-color: grey;
+    height: 700px;
+    background-image: url("skydiving-in-columbus-02.jpg");
+    background-size: cover;
+} 
+/* .thrill {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    padding: 200px 0 0 20px;
+} */
+.thrill {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #3D3D3D;
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
 }
-
 .quicklinks {
-    background-color: aquamarine;
-    height: 500px;
+    color: #2A6523;
+    background-color: white;
+    height: 350px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.tandemProgram  {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 70px 0 0 20px;
+    float: left;
+    /* margin: 0 auto; */
+    text-align: center;
+    box-shadow: 1px 1px 3px darkgrey;
+    border-radius: 15px;
+    /* display: inline-block; */
+}
+.staff {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 70px 20px 0 20px;
+    float: right;
+    /* margin: 0 auto; */
+    text-align: center;
+    box-shadow: 1px 1px 3px darkgrey;
+    border-radius: 15px;
+    /* display: inline-block; */
+}
+.staticlineProgram  {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 70px 20px 0 20px;
+    /* margin: 0 auto; */
+    text-align: center;
+    box-shadow: 1px 1px 3px darkgrey;
+    border-radius: 15px;
+    display: inline-block;
+}
+/* .extra  {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 70px 20px 0 20px;
+    text-align: center;
+    box-shadow: 1px 1px 3px darkgrey;
+    border-radius: 15px;
+    display: inline-block; */
+}
+.h4 {
+    padding: 5px;
+}
+.history    {
+    width: 100%;
+    height: 700px;
+}
+.historytitle   {
+    color: #3D3D3D;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+.footer {
+    color: #3D3D3D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 3%; 
 }
